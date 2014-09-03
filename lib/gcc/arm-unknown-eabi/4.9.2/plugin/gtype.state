@@ -17712,7 +17712,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1013 nil  gc_unused "anonymous:/home/hieu/fngbuild/.build/src/gcc-custom/gcc/config/arm/arm.c:29802"nil 
+ (!type struct 1013 nil  gc_unused "anonymous:/home/hieu/fngbuild/.build/src/gcc-custom/gcc/config/arm/arm.c:29806"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -17720,7 +17720,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1015 nil  gc_unused "anonymous:/home/hieu/fngbuild/.build/src/gcc-custom/gcc/config/arm/arm.c:23259"nil 
+ (!type struct 1015 nil  gc_unused "anonymous:/home/hieu/fngbuild/.build/src/gcc-custom/gcc/config/arm/arm.c:23263"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -23325,23 +23325,23 @@
   nil )
  (!pair  "arm_mangle_map_entry"
   (!type already_seen 1013)
-  (!srcfileloc  "config/arm/arm.c" 29806)
+  (!srcfileloc  "config/arm/arm.c" 29810)
   nil )
  (!pair  "builtin_arg"
   (!type already_seen 9)
-  (!srcfileloc  "config/arm/arm.c" 25155)
+  (!srcfileloc  "config/arm/arm.c" 25159)
   nil )
  (!pair  "neon_builtin_datum"
   (!type already_seen 1015)
-  (!srcfileloc  "config/arm/arm.c" 23265)
+  (!srcfileloc  "config/arm/arm.c" 23269)
   nil )
  (!pair  "neon_itype"
   (!type already_seen 9)
-  (!srcfileloc  "config/arm/arm.c" 23257)
+  (!srcfileloc  "config/arm/arm.c" 23261)
   nil )
  (!pair  "neon_builtin_type_mode"
   (!type already_seen 9)
-  (!srcfileloc  "config/arm/arm.c" 23188)
+  (!srcfileloc  "config/arm/arm.c" 23192)
   nil )
  (!pair  "arm_pragma_enum"
   (!type already_seen 9)
@@ -26554,7 +26554,7 @@
   (!type array 1585 nil  gc_used "ARM_BUILTIN_MAX" 
    (!type already_seen 5)
   )
-  (!srcfileloc  "config/arm/arm.c" 23649)
+  (!srcfileloc  "config/arm/arm.c" 23653)
   nil )
  (!pair  "tls_get_addr_libfunc"
   (!type already_seen 136)

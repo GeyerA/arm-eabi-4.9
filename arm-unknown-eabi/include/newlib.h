@@ -24,7 +24,7 @@
 /* #undef _WANT_REGISTER_FINI */
 
 /* long double type support in IO functions like printf/scanf enabled */
-/* #undef _WANT_IO_LONG_DOUBLE */
+#define _WANT_IO_LONG_DOUBLE 1
 
 /* Positional argument support in printf functions enabled.  */
 /* #undef _WANT_IO_POS_ARGS */
