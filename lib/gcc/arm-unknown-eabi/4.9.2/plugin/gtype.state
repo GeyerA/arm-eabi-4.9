@@ -4,7 +4,7 @@
 ;;; Don't parse this file wihout knowing GCC gengtype internals.
 ;;; This file should be parsed by the same gengtype which wrote it.
 
-(!version  "4.9.2 20140904 (prerelease)")
+(!version  "4.9.2 20141008 (prerelease)")
 (!srcdir  "/home/hieu/fngbuild/.build/src/gcc-custom/gcc")
 (!languages 9 ada c cp fortran go java lto objc objcp)
 (!fileslist 189
@@ -1467,23 +1467,23 @@
                                                    nil )
                                                   (!pair  "deferred_access_check"
                                                    (!type struct 73 nil  gc_used "deferred_access_check"
-                                                    (!srcfileloc  "cp/cp-tree.h" 5698)
+                                                    (!srcfileloc  "cp/cp-tree.h" 5700)
                                                     (!fields 4 
                                                      (!pair  "binfo"
                                                       (!type already_seen 5)
-                                                      (!srcfileloc  "cp/cp-tree.h" 5691)
+                                                      (!srcfileloc  "cp/cp-tree.h" 5693)
                                                       nil )
                                                      (!pair  "decl"
                                                       (!type already_seen 5)
-                                                      (!srcfileloc  "cp/cp-tree.h" 5693)
+                                                      (!srcfileloc  "cp/cp-tree.h" 5695)
                                                       nil )
                                                      (!pair  "diag_decl"
                                                       (!type already_seen 5)
-                                                      (!srcfileloc  "cp/cp-tree.h" 5695)
+                                                      (!srcfileloc  "cp/cp-tree.h" 5697)
                                                       nil )
                                                      (!pair  "loc"
                                                       (!type already_seen 9)
-                                                      (!srcfileloc  "cp/cp-tree.h" 5697)
+                                                      (!srcfileloc  "cp/cp-tree.h" 5699)
                                                       nil )
                                                     )
                                                     nil 260 nil nil )
@@ -11192,759 +11192,759 @@
               nil )
              (!pair  "opts"
               (!type struct 523 nil  gc_used "cl_optimization"
-               (!fileloc  "options.h" 3899)
+               (!fileloc  "options.h" 3905)
                (!fields 188 
                 (!pair  "x_align_functions"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3711)
+                 (!fileloc  "options.h" 3717)
                  nil )
                 (!pair  "x_align_jumps"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3712)
+                 (!fileloc  "options.h" 3718)
                  nil )
                 (!pair  "x_align_labels"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3713)
+                 (!fileloc  "options.h" 3719)
                  nil )
                 (!pair  "x_align_loops"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3714)
+                 (!fileloc  "options.h" 3720)
                  nil )
                 (!pair  "x_flag_sched_stalled_insns"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3715)
+                 (!fileloc  "options.h" 3721)
                  nil )
                 (!pair  "x_flag_sched_stalled_insns_dep"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3716)
+                 (!fileloc  "options.h" 3722)
                  nil )
                 (!pair  "x_flag_fp_contract_mode"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3717)
+                 (!fileloc  "options.h" 3723)
                  nil )
                 (!pair  "x_optimize"
                  (!type already_seen 28)
-                 (!fileloc  "options.h" 3718)
+                 (!fileloc  "options.h" 3724)
                  nil )
                 (!pair  "x_optimize_size"
                  (!type already_seen 28)
-                 (!fileloc  "options.h" 3719)
+                 (!fileloc  "options.h" 3725)
                  nil )
                 (!pair  "x_flag_aggressive_loop_optimizations"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3720)
+                 (!fileloc  "options.h" 3726)
                  nil )
                 (!pair  "x_flag_asynchronous_unwind_tables"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3721)
+                 (!fileloc  "options.h" 3727)
                  nil )
                 (!pair  "x_flag_branch_on_count_reg"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3722)
+                 (!fileloc  "options.h" 3728)
                  nil )
                 (!pair  "x_flag_branch_probabilities"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3723)
+                 (!fileloc  "options.h" 3729)
                  nil )
                 (!pair  "x_flag_branch_target_load_optimize"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3724)
+                 (!fileloc  "options.h" 3730)
                  nil )
                 (!pair  "x_flag_branch_target_load_optimize2"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3725)
+                 (!fileloc  "options.h" 3731)
                  nil )
                 (!pair  "x_flag_btr_bb_exclusive"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3726)
+                 (!fileloc  "options.h" 3732)
                  nil )
                 (!pair  "x_flag_caller_saves"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3727)
+                 (!fileloc  "options.h" 3733)
                  nil )
                 (!pair  "x_flag_combine_stack_adjustments"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3728)
+                 (!fileloc  "options.h" 3734)
                  nil )
                 (!pair  "x_flag_no_common"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3729)
+                 (!fileloc  "options.h" 3735)
                  nil )
                 (!pair  "x_flag_compare_elim_after_reload"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3730)
+                 (!fileloc  "options.h" 3736)
                  nil )
                 (!pair  "x_flag_conserve_stack"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3731)
+                 (!fileloc  "options.h" 3737)
                  nil )
                 (!pair  "x_flag_cprop_registers"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3732)
+                 (!fileloc  "options.h" 3738)
                  nil )
                 (!pair  "x_flag_crossjumping"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3733)
+                 (!fileloc  "options.h" 3739)
                  nil )
                 (!pair  "x_flag_cse_follow_jumps"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3734)
+                 (!fileloc  "options.h" 3740)
                  nil )
                 (!pair  "x_flag_cx_fortran_rules"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3735)
+                 (!fileloc  "options.h" 3741)
                  nil )
                 (!pair  "x_flag_cx_limited_range"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3736)
+                 (!fileloc  "options.h" 3742)
                  nil )
                 (!pair  "x_flag_data_sections"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3737)
+                 (!fileloc  "options.h" 3743)
                  nil )
                 (!pair  "x_flag_dce"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3738)
+                 (!fileloc  "options.h" 3744)
                  nil )
                 (!pair  "x_flag_defer_pop"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3739)
+                 (!fileloc  "options.h" 3745)
                  nil )
                 (!pair  "x_flag_delayed_branch"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3740)
+                 (!fileloc  "options.h" 3746)
                  nil )
                 (!pair  "x_flag_delete_null_pointer_checks"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3741)
+                 (!fileloc  "options.h" 3747)
                  nil )
                 (!pair  "x_flag_devirtualize"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3742)
+                 (!fileloc  "options.h" 3748)
                  nil )
                 (!pair  "x_flag_devirtualize_speculatively"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3743)
+                 (!fileloc  "options.h" 3749)
                  nil )
                 (!pair  "x_flag_dse"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3744)
+                 (!fileloc  "options.h" 3750)
                  nil )
                 (!pair  "x_flag_early_inlining"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3745)
+                 (!fileloc  "options.h" 3751)
                  nil )
                 (!pair  "x_flag_exceptions"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3746)
+                 (!fileloc  "options.h" 3752)
                  nil )
                 (!pair  "x_flag_expensive_optimizations"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3747)
+                 (!fileloc  "options.h" 3753)
                  nil )
                 (!pair  "x_flag_finite_math_only"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3748)
+                 (!fileloc  "options.h" 3754)
                  nil )
                 (!pair  "x_flag_float_store"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3749)
+                 (!fileloc  "options.h" 3755)
                  nil )
                 (!pair  "x_flag_forward_propagate"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3750)
+                 (!fileloc  "options.h" 3756)
                  nil )
                 (!pair  "x_flag_gcse"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3751)
+                 (!fileloc  "options.h" 3757)
                  nil )
                 (!pair  "x_flag_gcse_after_reload"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3752)
+                 (!fileloc  "options.h" 3758)
                  nil )
                 (!pair  "x_flag_gcse_las"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3753)
+                 (!fileloc  "options.h" 3759)
                  nil )
                 (!pair  "x_flag_gcse_lm"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3754)
+                 (!fileloc  "options.h" 3760)
                  nil )
                 (!pair  "x_flag_gcse_sm"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3755)
+                 (!fileloc  "options.h" 3761)
                  nil )
                 (!pair  "x_flag_graphite_identity"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3756)
+                 (!fileloc  "options.h" 3762)
                  nil )
                 (!pair  "x_flag_guess_branch_prob"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3757)
+                 (!fileloc  "options.h" 3763)
                  nil )
                 (!pair  "x_flag_hoist_adjacent_loads"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3758)
+                 (!fileloc  "options.h" 3764)
                  nil )
                 (!pair  "x_flag_if_conversion"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3759)
+                 (!fileloc  "options.h" 3765)
                  nil )
                 (!pair  "x_flag_if_conversion2"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3760)
+                 (!fileloc  "options.h" 3766)
                  nil )
                 (!pair  "x_flag_no_inline"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3761)
+                 (!fileloc  "options.h" 3767)
                  nil )
                 (!pair  "x_flag_inline_atomics"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3762)
+                 (!fileloc  "options.h" 3768)
                  nil )
                 (!pair  "x_flag_inline_functions"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3763)
+                 (!fileloc  "options.h" 3769)
                  nil )
                 (!pair  "x_flag_inline_functions_called_once"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3764)
+                 (!fileloc  "options.h" 3770)
                  nil )
                 (!pair  "x_flag_inline_small_functions"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3765)
+                 (!fileloc  "options.h" 3771)
                  nil )
                 (!pair  "x_flag_ipa_cp"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3766)
+                 (!fileloc  "options.h" 3772)
                  nil )
                 (!pair  "x_flag_ipa_cp_clone"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3767)
+                 (!fileloc  "options.h" 3773)
                  nil )
                 (!pair  "x_flag_ipa_profile"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3768)
+                 (!fileloc  "options.h" 3774)
                  nil )
                 (!pair  "x_flag_ipa_pta"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3769)
+                 (!fileloc  "options.h" 3775)
                  nil )
                 (!pair  "x_flag_ipa_pure_const"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3770)
+                 (!fileloc  "options.h" 3776)
                  nil )
                 (!pair  "x_flag_ipa_reference"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3771)
+                 (!fileloc  "options.h" 3777)
                  nil )
                 (!pair  "x_flag_ipa_sra"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3772)
+                 (!fileloc  "options.h" 3778)
                  nil )
                 (!pair  "x_flag_ira_hoist_pressure"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3773)
+                 (!fileloc  "options.h" 3779)
                  nil )
                 (!pair  "x_flag_ira_loop_pressure"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3774)
+                 (!fileloc  "options.h" 3780)
                  nil )
                 (!pair  "x_flag_isolate_erroneous_paths_attribute"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3775)
+                 (!fileloc  "options.h" 3781)
                  nil )
                 (!pair  "x_flag_isolate_erroneous_paths_dereference"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3776)
+                 (!fileloc  "options.h" 3782)
                  nil )
                 (!pair  "x_flag_ivopts"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3777)
+                 (!fileloc  "options.h" 3783)
                  nil )
                 (!pair  "x_flag_jump_tables"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3778)
+                 (!fileloc  "options.h" 3784)
                  nil )
                 (!pair  "x_flag_live_range_shrinkage"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3779)
+                 (!fileloc  "options.h" 3785)
                  nil )
                 (!pair  "x_flag_loop_block"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3780)
+                 (!fileloc  "options.h" 3786)
                  nil )
                 (!pair  "x_flag_loop_interchange"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3781)
+                 (!fileloc  "options.h" 3787)
                  nil )
                 (!pair  "x_flag_loop_optimize_isl"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3782)
+                 (!fileloc  "options.h" 3788)
                  nil )
                 (!pair  "x_flag_loop_parallelize_all"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3783)
+                 (!fileloc  "options.h" 3789)
                  nil )
                 (!pair  "x_flag_loop_strip_mine"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3784)
+                 (!fileloc  "options.h" 3790)
                  nil )
                 (!pair  "x_flag_errno_math"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3785)
+                 (!fileloc  "options.h" 3791)
                  nil )
                 (!pair  "x_flag_merge_constants"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3786)
+                 (!fileloc  "options.h" 3792)
                  nil )
                 (!pair  "x_flag_modulo_sched"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3787)
+                 (!fileloc  "options.h" 3793)
                  nil )
                 (!pair  "x_flag_move_loop_invariants"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3788)
+                 (!fileloc  "options.h" 3794)
                  nil )
                 (!pair  "x_flag_non_call_exceptions"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3789)
+                 (!fileloc  "options.h" 3795)
                  nil )
                 (!pair  "x_flag_nothrow_opt"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3790)
+                 (!fileloc  "options.h" 3796)
                  nil )
                 (!pair  "x_flag_omit_frame_pointer"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3791)
+                 (!fileloc  "options.h" 3797)
                  nil )
                 (!pair  "x_flag_opt_info"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3792)
+                 (!fileloc  "options.h" 3798)
                  nil )
                 (!pair  "x_flag_optimize_sibling_calls"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3793)
+                 (!fileloc  "options.h" 3799)
                  nil )
                 (!pair  "x_flag_optimize_strlen"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3794)
+                 (!fileloc  "options.h" 3800)
                  nil )
                 (!pair  "x_flag_pack_struct"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3795)
+                 (!fileloc  "options.h" 3801)
                  nil )
                 (!pair  "x_flag_peel_loops"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3796)
+                 (!fileloc  "options.h" 3802)
                  nil )
                 (!pair  "x_flag_no_peephole"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3797)
+                 (!fileloc  "options.h" 3803)
                  nil )
                 (!pair  "x_flag_peephole2"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3798)
+                 (!fileloc  "options.h" 3804)
                  nil )
                 (!pair  "x_flag_predictive_commoning"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3799)
+                 (!fileloc  "options.h" 3805)
                  nil )
                 (!pair  "x_flag_prefetch_loop_arrays"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3800)
+                 (!fileloc  "options.h" 3806)
                  nil )
                 (!pair  "x_flag_pcc_struct_return"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3801)
+                 (!fileloc  "options.h" 3807)
                  nil )
                 (!pair  "x_flag_rename_registers"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3802)
+                 (!fileloc  "options.h" 3808)
                  nil )
                 (!pair  "x_flag_reorder_blocks"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3803)
+                 (!fileloc  "options.h" 3809)
                  nil )
                 (!pair  "x_flag_reorder_blocks_and_partition"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3804)
+                 (!fileloc  "options.h" 3810)
                  nil )
                 (!pair  "x_flag_reorder_functions"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3805)
+                 (!fileloc  "options.h" 3811)
                  nil )
                 (!pair  "x_flag_rerun_cse_after_loop"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3806)
+                 (!fileloc  "options.h" 3812)
                  nil )
                 (!pair  "x_flag_resched_modulo_sched"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3807)
+                 (!fileloc  "options.h" 3813)
                  nil )
                 (!pair  "x_flag_rounding_math"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3808)
+                 (!fileloc  "options.h" 3814)
                  nil )
                 (!pair  "x_flag_rtti"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3809)
+                 (!fileloc  "options.h" 3815)
                  nil )
                 (!pair  "x_flag_sched_critical_path_heuristic"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3810)
+                 (!fileloc  "options.h" 3816)
                  nil )
                 (!pair  "x_flag_sched_dep_count_heuristic"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3811)
+                 (!fileloc  "options.h" 3817)
                  nil )
                 (!pair  "x_flag_sched_group_heuristic"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3812)
+                 (!fileloc  "options.h" 3818)
                  nil )
                 (!pair  "x_flag_schedule_interblock"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3813)
+                 (!fileloc  "options.h" 3819)
                  nil )
                 (!pair  "x_flag_sched_last_insn_heuristic"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3814)
+                 (!fileloc  "options.h" 3820)
                  nil )
                 (!pair  "x_flag_sched_pressure"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3815)
+                 (!fileloc  "options.h" 3821)
                  nil )
                 (!pair  "x_flag_sched_rank_heuristic"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3816)
+                 (!fileloc  "options.h" 3822)
                  nil )
                 (!pair  "x_flag_schedule_speculative"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3817)
+                 (!fileloc  "options.h" 3823)
                  nil )
                 (!pair  "x_flag_sched_spec_insn_heuristic"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3818)
+                 (!fileloc  "options.h" 3824)
                  nil )
                 (!pair  "x_flag_schedule_speculative_load"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3819)
+                 (!fileloc  "options.h" 3825)
                  nil )
                 (!pair  "x_flag_schedule_speculative_load_dangerous"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3820)
+                 (!fileloc  "options.h" 3826)
                  nil )
                 (!pair  "x_flag_sched2_use_superblocks"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3821)
+                 (!fileloc  "options.h" 3827)
                  nil )
                 (!pair  "x_flag_schedule_insns"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3822)
+                 (!fileloc  "options.h" 3828)
                  nil )
                 (!pair  "x_flag_schedule_insns_after_reload"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3823)
+                 (!fileloc  "options.h" 3829)
                  nil )
                 (!pair  "x_flag_section_anchors"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3824)
+                 (!fileloc  "options.h" 3830)
                  nil )
                 (!pair  "x_flag_sel_sched_pipelining"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3825)
+                 (!fileloc  "options.h" 3831)
                  nil )
                 (!pair  "x_flag_sel_sched_pipelining_outer_loops"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3826)
+                 (!fileloc  "options.h" 3832)
                  nil )
                 (!pair  "x_flag_sel_sched_reschedule_pipelined"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3827)
+                 (!fileloc  "options.h" 3833)
                  nil )
                 (!pair  "x_flag_selective_scheduling"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3828)
+                 (!fileloc  "options.h" 3834)
                  nil )
                 (!pair  "x_flag_selective_scheduling2"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3829)
+                 (!fileloc  "options.h" 3835)
                  nil )
                 (!pair  "x_flag_short_double"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3830)
+                 (!fileloc  "options.h" 3836)
                  nil )
                 (!pair  "x_flag_short_enums"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3831)
+                 (!fileloc  "options.h" 3837)
                  nil )
                 (!pair  "x_flag_short_wchar"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3832)
+                 (!fileloc  "options.h" 3838)
                  nil )
                 (!pair  "x_flag_shrink_wrap"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3833)
+                 (!fileloc  "options.h" 3839)
                  nil )
                 (!pair  "x_flag_signaling_nans"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3834)
+                 (!fileloc  "options.h" 3840)
                  nil )
                 (!pair  "x_flag_signed_zeros"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3835)
+                 (!fileloc  "options.h" 3841)
                  nil )
                 (!pair  "x_flag_single_precision_constant"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3836)
+                 (!fileloc  "options.h" 3842)
                  nil )
                 (!pair  "x_flag_split_ivs_in_unroller"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3837)
+                 (!fileloc  "options.h" 3843)
                  nil )
                 (!pair  "x_flag_split_wide_types"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3838)
+                 (!fileloc  "options.h" 3844)
                  nil )
                 (!pair  "x_flag_strict_aliasing"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3839)
+                 (!fileloc  "options.h" 3845)
                  nil )
                 (!pair  "x_flag_strict_enums"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3840)
+                 (!fileloc  "options.h" 3846)
                  nil )
                 (!pair  "x_flag_thread_jumps"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3841)
+                 (!fileloc  "options.h" 3847)
                  nil )
                 (!pair  "x_flag_threadsafe_statics"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3842)
+                 (!fileloc  "options.h" 3848)
                  nil )
                 (!pair  "x_flag_toplevel_reorder"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3843)
+                 (!fileloc  "options.h" 3849)
                  nil )
                 (!pair  "x_flag_trapping_math"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3844)
+                 (!fileloc  "options.h" 3850)
                  nil )
                 (!pair  "x_flag_trapv"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3845)
+                 (!fileloc  "options.h" 3851)
                  nil )
                 (!pair  "x_flag_tree_bit_ccp"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3846)
+                 (!fileloc  "options.h" 3852)
                  nil )
                 (!pair  "x_flag_tree_builtin_call_dce"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3847)
+                 (!fileloc  "options.h" 3853)
                  nil )
                 (!pair  "x_flag_tree_ccp"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3848)
+                 (!fileloc  "options.h" 3854)
                  nil )
                 (!pair  "x_flag_tree_ch"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3849)
+                 (!fileloc  "options.h" 3855)
                  nil )
                 (!pair  "x_flag_ssa_coalesce_vars"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3850)
+                 (!fileloc  "options.h" 3856)
                  nil )
                 (!pair  "x_flag_tree_copy_prop"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3851)
+                 (!fileloc  "options.h" 3857)
                  nil )
                 (!pair  "x_flag_tree_copyrename"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3852)
+                 (!fileloc  "options.h" 3858)
                  nil )
                 (!pair  "x_flag_tree_cselim"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3853)
+                 (!fileloc  "options.h" 3859)
                  nil )
                 (!pair  "x_flag_tree_dce"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3854)
+                 (!fileloc  "options.h" 3860)
                  nil )
                 (!pair  "x_flag_tree_dom"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3855)
+                 (!fileloc  "options.h" 3861)
                  nil )
                 (!pair  "x_flag_tree_dse"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3856)
+                 (!fileloc  "options.h" 3862)
                  nil )
                 (!pair  "x_flag_tree_forwprop"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3857)
+                 (!fileloc  "options.h" 3863)
                  nil )
                 (!pair  "x_flag_tree_fre"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3858)
+                 (!fileloc  "options.h" 3864)
                  nil )
                 (!pair  "x_flag_tree_loop_distribute_patterns"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3859)
+                 (!fileloc  "options.h" 3865)
                  nil )
                 (!pair  "x_flag_tree_loop_distribution"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3860)
+                 (!fileloc  "options.h" 3866)
                  nil )
                 (!pair  "x_flag_tree_loop_if_convert"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3861)
+                 (!fileloc  "options.h" 3867)
                  nil )
                 (!pair  "x_flag_tree_loop_if_convert_stores"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3862)
+                 (!fileloc  "options.h" 3868)
                  nil )
                 (!pair  "x_flag_tree_loop_im"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3863)
+                 (!fileloc  "options.h" 3869)
                  nil )
                 (!pair  "x_flag_tree_loop_ivcanon"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3864)
+                 (!fileloc  "options.h" 3870)
                  nil )
                 (!pair  "x_flag_tree_loop_optimize"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3865)
+                 (!fileloc  "options.h" 3871)
                  nil )
                 (!pair  "x_flag_tree_loop_vectorize"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3866)
+                 (!fileloc  "options.h" 3872)
                  nil )
                 (!pair  "x_flag_tree_live_range_split"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3867)
+                 (!fileloc  "options.h" 3873)
                  nil )
                 (!pair  "x_flag_tree_partial_pre"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3868)
+                 (!fileloc  "options.h" 3874)
                  nil )
                 (!pair  "x_flag_tree_phiprop"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3869)
+                 (!fileloc  "options.h" 3875)
                  nil )
                 (!pair  "x_flag_tree_pre"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3870)
+                 (!fileloc  "options.h" 3876)
                  nil )
                 (!pair  "x_flag_tree_pta"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3871)
+                 (!fileloc  "options.h" 3877)
                  nil )
                 (!pair  "x_flag_tree_reassoc"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3872)
+                 (!fileloc  "options.h" 3878)
                  nil )
                 (!pair  "x_flag_tree_scev_cprop"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3873)
+                 (!fileloc  "options.h" 3879)
                  nil )
                 (!pair  "x_flag_tree_sink"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3874)
+                 (!fileloc  "options.h" 3880)
                  nil )
                 (!pair  "x_flag_tree_slp_vectorize"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3875)
+                 (!fileloc  "options.h" 3881)
                  nil )
                 (!pair  "x_flag_tree_slsr"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3876)
+                 (!fileloc  "options.h" 3882)
                  nil )
                 (!pair  "x_flag_tree_sra"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3877)
+                 (!fileloc  "options.h" 3883)
                  nil )
                 (!pair  "x_flag_tree_switch_conversion"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3878)
+                 (!fileloc  "options.h" 3884)
                  nil )
                 (!pair  "x_flag_tree_tail_merge"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3879)
+                 (!fileloc  "options.h" 3885)
                  nil )
                 (!pair  "x_flag_tree_ter"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3880)
+                 (!fileloc  "options.h" 3886)
                  nil )
                 (!pair  "x_flag_tree_vectorize"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3881)
+                 (!fileloc  "options.h" 3887)
                  nil )
                 (!pair  "x_flag_tree_vrp"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3882)
+                 (!fileloc  "options.h" 3888)
                  nil )
                 (!pair  "x_flag_unit_at_a_time"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3883)
+                 (!fileloc  "options.h" 3889)
                  nil )
                 (!pair  "x_flag_unroll_all_loops"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3884)
+                 (!fileloc  "options.h" 3890)
                  nil )
                 (!pair  "x_flag_unroll_loops"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3885)
+                 (!fileloc  "options.h" 3891)
                  nil )
                 (!pair  "x_flag_unsafe_loop_optimizations"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3886)
+                 (!fileloc  "options.h" 3892)
                  nil )
                 (!pair  "x_flag_unsafe_math_optimizations"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3887)
+                 (!fileloc  "options.h" 3893)
                  nil )
                 (!pair  "x_flag_unswitch_loops"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3888)
+                 (!fileloc  "options.h" 3894)
                  nil )
                 (!pair  "x_flag_unwind_tables"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3889)
+                 (!fileloc  "options.h" 3895)
                  nil )
                 (!pair  "x_flag_var_tracking"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3890)
+                 (!fileloc  "options.h" 3896)
                  nil )
                 (!pair  "x_flag_var_tracking_assignments"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3891)
+                 (!fileloc  "options.h" 3897)
                  nil )
                 (!pair  "x_flag_var_tracking_assignments_toggle"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3892)
+                 (!fileloc  "options.h" 3898)
                  nil )
                 (!pair  "x_flag_var_tracking_uninit"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3893)
+                 (!fileloc  "options.h" 3899)
                  nil )
                 (!pair  "x_flag_variable_expansion_in_unroller"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3894)
+                 (!fileloc  "options.h" 3900)
                  nil )
                 (!pair  "x_flag_value_profile_transformations"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3895)
+                 (!fileloc  "options.h" 3901)
                  nil )
                 (!pair  "x_flag_web"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3896)
+                 (!fileloc  "options.h" 3902)
                  nil )
                 (!pair  "x_flag_whole_program"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3897)
+                 (!fileloc  "options.h" 3903)
                  nil )
                 (!pair  "x_flag_wrapv"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3898)
+                 (!fileloc  "options.h" 3904)
                  nil )
                )
                nil 511 nil nil )
@@ -12242,11 +12242,11 @@
               nil )
              (!pair  "opts"
               (!type struct 555 nil  gc_used "cl_target_option"
-               (!fileloc  "options.h" 3905)
+               (!fileloc  "options.h" 3911)
                (!fields 1 
                 (!pair  "x_arm_lra_flag"
                  (!type already_seen 9)
-                 (!fileloc  "options.h" 3904)
+                 (!fileloc  "options.h" 3910)
                  nil )
                )
                nil 511 nil nil )
@@ -14542,39 +14542,39 @@
    (!type already_seen 709)
   )
   gc_pointed_to "constexpr_call"
-  (!srcfileloc  "cp/semantics.c" 8084)
+  (!srcfileloc  "cp/semantics.c" 8093)
   (!fields 4 
    (!pair  "fundef"
     (!type pointer 711 nil  gc_used
      (!type struct 712 
       (!type already_seen 711)
       gc_pointed_to "constexpr_fundef"
-      (!srcfileloc  "cp/semantics.c" 7401)
+      (!srcfileloc  "cp/semantics.c" 7410)
       (!fields 2 
        (!pair  "decl"
         (!type already_seen 5)
-        (!srcfileloc  "cp/semantics.c" 7399)
+        (!srcfileloc  "cp/semantics.c" 7408)
         nil )
        (!pair  "body"
         (!type already_seen 5)
-        (!srcfileloc  "cp/semantics.c" 7400)
+        (!srcfileloc  "cp/semantics.c" 7409)
         nil )
       )
       nil 260 nil nil )
     )
-    (!srcfileloc  "cp/semantics.c" 8068)
+    (!srcfileloc  "cp/semantics.c" 8077)
     nil )
    (!pair  "bindings"
     (!type already_seen 5)
-    (!srcfileloc  "cp/semantics.c" 8075)
+    (!srcfileloc  "cp/semantics.c" 8084)
     nil )
    (!pair  "result"
     (!type already_seen 5)
-    (!srcfileloc  "cp/semantics.c" 8080)
+    (!srcfileloc  "cp/semantics.c" 8089)
     nil )
    (!pair  "hash"
     (!type already_seen 9)
-    (!srcfileloc  "cp/semantics.c" 8083)
+    (!srcfileloc  "cp/semantics.c" 8092)
     nil )
   )
   nil 260 nil nil )
@@ -14673,27 +14673,27 @@
      (!type struct 726 
       (!type already_seen 725)
       gc_pointed_to "tinst_level"
-      (!srcfileloc  "cp/cp-tree.h" 4995)
+      (!srcfileloc  "cp/cp-tree.h" 4996)
       (!fields 5 
        (!pair  "next"
         (!type already_seen 725)
-        (!srcfileloc  "cp/cp-tree.h" 4980)
+        (!srcfileloc  "cp/cp-tree.h" 4981)
         nil )
        (!pair  "decl"
         (!type already_seen 5)
-        (!srcfileloc  "cp/cp-tree.h" 4985)
+        (!srcfileloc  "cp/cp-tree.h" 4986)
         nil )
        (!pair  "locus"
         (!type already_seen 9)
-        (!srcfileloc  "cp/cp-tree.h" 4988)
+        (!srcfileloc  "cp/cp-tree.h" 4989)
         nil )
        (!pair  "errors"
         (!type already_seen 9)
-        (!srcfileloc  "cp/cp-tree.h" 4991)
+        (!srcfileloc  "cp/cp-tree.h" 4992)
         nil )
        (!pair  "in_system_header_p"
         (!type already_seen 9)
-        (!srcfileloc  "cp/cp-tree.h" 4994)
+        (!srcfileloc  "cp/cp-tree.h" 4995)
         nil )
       )
       (!options 
@@ -14806,23 +14806,23 @@
   nil 0 nil nil )
  
  (!type struct 745 nil  gc_used "operator_name_info_t"
-  (!srcfileloc  "cp/cp-tree.h" 4744)
+  (!srcfileloc  "cp/cp-tree.h" 4745)
   (!fields 4 
    (!pair  "identifier"
     (!type already_seen 5)
-    (!srcfileloc  "cp/cp-tree.h" 4737)
+    (!srcfileloc  "cp/cp-tree.h" 4738)
     nil )
    (!pair  "name"
     (!type already_seen 36)
-    (!srcfileloc  "cp/cp-tree.h" 4739)
+    (!srcfileloc  "cp/cp-tree.h" 4740)
     nil )
    (!pair  "mangled_name"
     (!type already_seen 36)
-    (!srcfileloc  "cp/cp-tree.h" 4741)
+    (!srcfileloc  "cp/cp-tree.h" 4742)
     nil )
    (!pair  "arity"
     (!type already_seen 9)
-    (!srcfileloc  "cp/cp-tree.h" 4743)
+    (!srcfileloc  "cp/cp-tree.h" 4744)
     nil )
   )
   nil 260 nil nil )
@@ -15392,27 +15392,27 @@
   nil 0 nil )
  
  (!type struct 781 nil  gc_used "lazy_hex_fp_value_struct"
-  (!srcfileloc  "c-family/c-cppbuiltin.c" 1130)
+  (!srcfileloc  "c-family/c-cppbuiltin.c" 1178)
   (!fields 5 
    (!pair  "hex_str"
     (!type already_seen 36)
-    (!srcfileloc  "c-family/c-cppbuiltin.c" 1125)
+    (!srcfileloc  "c-family/c-cppbuiltin.c" 1173)
     nil )
    (!pair  "macro"
     (!type already_seen 570)
-    (!srcfileloc  "c-family/c-cppbuiltin.c" 1126)
+    (!srcfileloc  "c-family/c-cppbuiltin.c" 1174)
     nil )
    (!pair  "mode"
     (!type already_seen 9)
-    (!srcfileloc  "c-family/c-cppbuiltin.c" 1127)
+    (!srcfileloc  "c-family/c-cppbuiltin.c" 1175)
     nil )
    (!pair  "digits"
     (!type already_seen 9)
-    (!srcfileloc  "c-family/c-cppbuiltin.c" 1128)
+    (!srcfileloc  "c-family/c-cppbuiltin.c" 1176)
     nil )
    (!pair  "fp_suffix"
     (!type already_seen 36)
-    (!srcfileloc  "c-family/c-cppbuiltin.c" 1129)
+    (!srcfileloc  "c-family/c-cppbuiltin.c" 1177)
     nil )
   )
   nil 386 nil nil )
@@ -15448,15 +15448,15 @@
    (!type already_seen 788)
   )
   gc_pointed_to "vec<tree_gc_vec,va_gc>"
-  (!srcfileloc  "c-family/c-common.c" 11546)
+  (!srcfileloc  "c-family/c-common.c" 11548)
   (!fields 2 
    (!pair  "va_gc"
     (!type already_seen 3)
-    (!srcfileloc  "c-family/c-common.c" 11546)
+    (!srcfileloc  "c-family/c-common.c" 11548)
     nil )
    (!pair  "tree_gc_vec"
     (!type already_seen 45)
-    (!srcfileloc  "c-family/c-common.c" 11546)
+    (!srcfileloc  "c-family/c-common.c" 11548)
     nil )
   )
  )
@@ -15472,15 +15472,15 @@
    (!type already_seen 791)
   )
   gc_pointed_to "vec<const_char_p,va_gc>"
-  (!srcfileloc  "c-family/c-common.c" 9011)
+  (!srcfileloc  "c-family/c-common.c" 9013)
   (!fields 2 
    (!pair  "va_gc"
     (!type already_seen 3)
-    (!srcfileloc  "c-family/c-common.c" 9011)
+    (!srcfileloc  "c-family/c-common.c" 9013)
     nil )
    (!pair  "const_char_p"
     (!type already_seen 36)
-    (!srcfileloc  "c-family/c-common.c" 9011)
+    (!srcfileloc  "c-family/c-common.c" 9013)
     nil )
   )
  )
@@ -17712,7 +17712,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1013 nil  gc_unused "anonymous:/home/hieu/fngbuild/.build/src/gcc-custom/gcc/config/arm/arm.c:29812"nil 
+ (!type struct 1013 nil  gc_unused "anonymous:/home/hieu/fngbuild/.build/src/gcc-custom/gcc/config/arm/arm.c:29820"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -17720,30 +17720,30 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1015 nil  gc_unused "anonymous:/home/hieu/fngbuild/.build/src/gcc-custom/gcc/config/arm/arm.c:23269"nil 
+ (!type struct 1015 nil  gc_unused "anonymous:/home/hieu/fngbuild/.build/src/gcc-custom/gcc/config/arm/arm.c:23260"nil 
   (!fields 0 )
   nil 0 nil nil )
  
  (!type user_struct 1016 nil  gc_unused "hash_table<libcall_hasher>"
-  (!srcfileloc  "config/arm/arm.c" 4765)
+  (!srcfileloc  "config/arm/arm.c" 4767)
   (!fields 1 
    (!pair  "libcall_hasher"
     (!type struct 1017 nil  gc_unused "libcall_hasher"
-     (!srcfileloc  "config/arm/arm.c" 4765)
+     (!srcfileloc  "config/arm/arm.c" 4767)
      (!fields 0 )
      nil 511 nil nil )
-    (!srcfileloc  "config/arm/arm.c" 4765)
+    (!srcfileloc  "config/arm/arm.c" 4767)
     nil )
   )
  )
  
  (!type already_seen 1017)
  
- (!type struct 1018 nil  gc_unused "anonymous:/home/hieu/fngbuild/.build/src/gcc-custom/gcc/config/arm/arm.c:3095"nil 
+ (!type struct 1018 nil  gc_unused "anonymous:/home/hieu/fngbuild/.build/src/gcc-custom/gcc/config/arm/arm.c:3097"nil 
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1019 nil  gc_unused "anonymous:/home/hieu/fngbuild/.build/src/gcc-custom/gcc/config/arm/arm.c:2101"nil 
+ (!type struct 1019 nil  gc_unused "anonymous:/home/hieu/fngbuild/.build/src/gcc-custom/gcc/config/arm/arm.c:2100"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -19294,14 +19294,14 @@
   nil 0 nil nil )
  
  (!type user_struct 1216 nil  gc_unused "hash_table<loc_list_hasher>"
-  (!srcfileloc  "dwarf2out.c" 23883)
+  (!srcfileloc  "dwarf2out.c" 23887)
   (!fields 1 
    (!pair  "loc_list_hasher"
     (!type struct 1217 nil  gc_unused "loc_list_hasher"
-     (!srcfileloc  "dwarf2out.c" 23883)
+     (!srcfileloc  "dwarf2out.c" 23887)
      (!fields 0 )
      nil 511 nil nil )
-    (!srcfileloc  "dwarf2out.c" 23883)
+    (!srcfileloc  "dwarf2out.c" 23887)
     nil )
   )
  )
@@ -19313,14 +19313,14 @@
   nil 0 nil nil )
  
  (!type user_struct 1219 nil  gc_unused "hash_table<macinfo_entry_hasher>"
-  (!srcfileloc  "dwarf2out.c" 21699)
+  (!srcfileloc  "dwarf2out.c" 21703)
   (!fields 1 
    (!pair  "macinfo_entry_hasher"
     (!type struct 1220 nil  gc_unused "macinfo_entry_hasher"
-     (!srcfileloc  "dwarf2out.c" 21699)
+     (!srcfileloc  "dwarf2out.c" 21703)
      (!fields 0 )
      nil 511 nil nil )
-    (!srcfileloc  "dwarf2out.c" 21699)
+    (!srcfileloc  "dwarf2out.c" 21703)
     nil )
   )
  )
@@ -20267,19 +20267,19 @@
    (!type already_seen 1330)
   )
   gc_pointed_to "constant_descriptor_tree"
-  (!srcfileloc  "cgraph.h" 1337)
+  (!srcfileloc  "cgraph.h" 1338)
   (!fields 3 
    (!pair  "rtl"
     (!type already_seen 136)
-    (!srcfileloc  "cgraph.h" 1328)
+    (!srcfileloc  "cgraph.h" 1329)
     nil )
    (!pair  "value"
     (!type already_seen 5)
-    (!srcfileloc  "cgraph.h" 1331)
+    (!srcfileloc  "cgraph.h" 1332)
     nil )
    (!pair  "hash"
     (!type already_seen 9)
-    (!srcfileloc  "cgraph.h" 1336)
+    (!srcfileloc  "cgraph.h" 1337)
     nil )
   )
   nil 511 nil nil )
@@ -22629,11 +22629,11 @@
   nil )
  (!pair  "constexpr_call"
   (!type already_seen 709)
-  (!srcfileloc  "cp/semantics.c" 8084)
+  (!srcfileloc  "cp/semantics.c" 8093)
   nil )
  (!pair  "constexpr_fundef"
   (!type already_seen 712)
-  (!srcfileloc  "cp/semantics.c" 7401)
+  (!srcfileloc  "cp/semantics.c" 7410)
   nil )
  (!pair  "vec<deferred_access,va_gc>"
   (!type already_seen 714)
@@ -22701,95 +22701,95 @@
   nil )
  (!pair  "deferred_access_check"
   (!type already_seen 73)
-  (!srcfileloc  "cp/cp-tree.h" 5698)
+  (!srcfileloc  "cp/cp-tree.h" 5700)
   nil )
  (!pair  "walk_namespaces_fn"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 5278)
+  (!srcfileloc  "cp/cp-tree.h" 5279)
   nil )
  (!pair  "cp_parameter_declarator"
   (!type already_seen 742)
-  (!srcfileloc  "cp/cp-tree.h" 4890)
+  (!srcfileloc  "cp/cp-tree.h" 4891)
   nil )
  (!pair  "cp_declarator"
   (!type already_seen 743)
-  (!srcfileloc  "cp/cp-tree.h" 4888)
+  (!srcfileloc  "cp/cp-tree.h" 4889)
   nil )
  (!pair  "cp_declarator_kind"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 4884)
+  (!srcfileloc  "cp/cp-tree.h" 4885)
   nil )
  (!pair  "cp_decl_specifier_seq"
   (!type already_seen 744)
-  (!srcfileloc  "cp/cp-tree.h" 4872)
+  (!srcfileloc  "cp/cp-tree.h" 4873)
   nil )
  (!pair  "cp_decl_spec"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 4828)
+  (!srcfileloc  "cp/cp-tree.h" 4829)
   nil )
  (!pair  "cp_storage_class"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 4797)
+  (!srcfileloc  "cp/cp-tree.h" 4798)
   nil )
  (!pair  "cp_virt_specifiers"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 4767)
+  (!srcfileloc  "cp/cp-tree.h" 4768)
   nil )
  (!pair  "operator_name_info_t"
   (!type already_seen 745)
-  (!srcfileloc  "cp/cp-tree.h" 4744)
+  (!srcfileloc  "cp/cp-tree.h" 4745)
   nil )
  (!pair  "unification_kind_t"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 4385)
+  (!srcfileloc  "cp/cp-tree.h" 4386)
   nil )
  (!pair  "cp_cv_quals"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 4362)
+  (!srcfileloc  "cp/cp-tree.h" 4363)
   nil )
  (!pair  "base_kind"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 4340)
+  (!srcfileloc  "cp/cp-tree.h" 4341)
   nil )
  (!pair  "deferring_kind"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 4327)
+  (!srcfileloc  "cp/cp-tree.h" 4328)
   nil )
  (!pair  "base_access"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 4320)
+  (!srcfileloc  "cp/cp-tree.h" 4321)
   nil )
  (!pair  "tsubst_flags_t"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 4306)
+  (!srcfileloc  "cp/cp-tree.h" 4307)
   nil )
  (!pair  "duration_kind"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 4277)
+  (!srcfileloc  "cp/cp-tree.h" 4278)
   nil )
  (!pair  "linkage_kind"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 4270)
+  (!srcfileloc  "cp/cp-tree.h" 4271)
   nil )
  (!pair  "special_function_kind"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 4247)
+  (!srcfileloc  "cp/cp-tree.h" 4248)
   nil )
  (!pair  "access_kind"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 4226)
+  (!srcfileloc  "cp/cp-tree.h" 4227)
   nil )
  (!pair  "tmpl_spec_kind"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 4215)
+  (!srcfileloc  "cp/cp-tree.h" 4216)
   nil )
  (!pair  "cp_lvalue_kind"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 4197)
+  (!srcfileloc  "cp/cp-tree.h" 4198)
   nil )
  (!pair  "aggr_init_expr_arg_iterator"
   (!type already_seen 746)
-  (!srcfileloc  "cp/cp-tree.h" 3084)
+  (!srcfileloc  "cp/cp-tree.h" 3085)
   nil )
  (!pair  "vec<tree_pair_s,va_gc>"
   (!type already_seen 483)
@@ -23021,23 +23021,23 @@
   nil )
  (!pair  "vec<tree_gc_vec,va_gc>"
   (!type already_seen 788)
-  (!srcfileloc  "c-family/c-common.c" 11546)
+  (!srcfileloc  "c-family/c-common.c" 11548)
   nil )
  (!pair  "tree_gc_vec"
   (!type already_seen 45)
-  (!srcfileloc  "c-family/c-common.c" 11545)
+  (!srcfileloc  "c-family/c-common.c" 11547)
   nil )
  (!pair  "vec<const_char_p,va_gc>"
   (!type already_seen 791)
-  (!srcfileloc  "c-family/c-common.c" 9011)
+  (!srcfileloc  "c-family/c-common.c" 9013)
   nil )
  (!pair  "const_char_p"
   (!type already_seen 29)
-  (!srcfileloc  "c-family/c-common.c" 9010)
+  (!srcfileloc  "c-family/c-common.c" 9012)
   nil )
  (!pair  "disabled_builtin"
   (!type already_seen 793)
-  (!srcfileloc  "c-family/c-common.c" 5761)
+  (!srcfileloc  "c-family/c-common.c" 5763)
   nil )
  (!pair  "c_binding_ptr"
   (!type already_seen 583)
@@ -23325,47 +23325,47 @@
   nil )
  (!pair  "arm_mangle_map_entry"
   (!type already_seen 1013)
-  (!srcfileloc  "config/arm/arm.c" 29816)
+  (!srcfileloc  "config/arm/arm.c" 29824)
   nil )
  (!pair  "builtin_arg"
   (!type already_seen 9)
-  (!srcfileloc  "config/arm/arm.c" 25165)
+  (!srcfileloc  "config/arm/arm.c" 25172)
   nil )
  (!pair  "neon_builtin_datum"
   (!type already_seen 1015)
-  (!srcfileloc  "config/arm/arm.c" 23275)
+  (!srcfileloc  "config/arm/arm.c" 23266)
   nil )
  (!pair  "neon_itype"
   (!type already_seen 9)
-  (!srcfileloc  "config/arm/arm.c" 23267)
+  (!srcfileloc  "config/arm/arm.c" 23258)
   nil )
  (!pair  "neon_builtin_type_mode"
   (!type already_seen 9)
-  (!srcfileloc  "config/arm/arm.c" 23198)
+  (!srcfileloc  "config/arm/arm.c" 23188)
   nil )
  (!pair  "arm_pragma_enum"
   (!type already_seen 9)
-  (!srcfileloc  "config/arm/arm.c" 6041)
+  (!srcfileloc  "config/arm/arm.c" 6043)
   nil )
  (!pair  "libcall_table_type"
   (!type already_seen 1016)
-  (!srcfileloc  "config/arm/arm.c" 4765)
+  (!srcfileloc  "config/arm/arm.c" 4767)
   nil )
  (!pair  "libcall_hasher"
   (!type already_seen 1017)
-  (!srcfileloc  "config/arm/arm.c" 4765)
+  (!srcfileloc  "config/arm/arm.c" 4767)
   nil )
  (!pair  "hash_table<libcall_hasher>"
   (!type already_seen 1016)
-  (!srcfileloc  "config/arm/arm.c" 4765)
+  (!srcfileloc  "config/arm/arm.c" 4767)
   nil )
  (!pair  "isr_attribute_arg"
   (!type already_seen 1018)
-  (!srcfileloc  "config/arm/arm.c" 3099)
+  (!srcfileloc  "config/arm/arm.c" 3101)
   nil )
  (!pair  "arm_fixed_mode_set"
   (!type already_seen 1019)
-  (!srcfileloc  "config/arm/arm.c" 2104)
+  (!srcfileloc  "config/arm/arm.c" 2103)
   nil )
  (!pair  "Mfix"
   (!type already_seen 1023)
@@ -23621,31 +23621,31 @@
   nil )
  (!pair  "loc_list_hash_type"
   (!type already_seen 1216)
-  (!srcfileloc  "dwarf2out.c" 23883)
+  (!srcfileloc  "dwarf2out.c" 23887)
   nil )
  (!pair  "loc_list_hasher"
   (!type already_seen 1217)
-  (!srcfileloc  "dwarf2out.c" 23883)
+  (!srcfileloc  "dwarf2out.c" 23887)
   nil )
  (!pair  "hash_table<loc_list_hasher>"
   (!type already_seen 1216)
-  (!srcfileloc  "dwarf2out.c" 23883)
+  (!srcfileloc  "dwarf2out.c" 23887)
   nil )
  (!pair  "macinfo_hash_type"
   (!type already_seen 1219)
-  (!srcfileloc  "dwarf2out.c" 21699)
+  (!srcfileloc  "dwarf2out.c" 21703)
   nil )
  (!pair  "macinfo_entry_hasher"
   (!type already_seen 1220)
-  (!srcfileloc  "dwarf2out.c" 21699)
+  (!srcfileloc  "dwarf2out.c" 21703)
   nil )
  (!pair  "hash_table<macinfo_entry_hasher>"
   (!type already_seen 1219)
-  (!srcfileloc  "dwarf2out.c" 21699)
+  (!srcfileloc  "dwarf2out.c" 21703)
   nil )
  (!pair  "dchar_p"
   (!type already_seen 29)
-  (!srcfileloc  "dwarf2out.c" 19144)
+  (!srcfileloc  "dwarf2out.c" 19148)
   nil )
  (!pair  "external_ref_hash_type"
   (!type already_seen 1224)
@@ -23905,23 +23905,23 @@
   nil )
  (!pair  "cgraph_2node_hook"
   (!type already_seen 9)
-  (!srcfileloc  "cgraph.h" 832)
+  (!srcfileloc  "cgraph.h" 833)
   nil )
  (!pair  "cgraph_2edge_hook"
   (!type already_seen 9)
-  (!srcfileloc  "cgraph.h" 830)
+  (!srcfileloc  "cgraph.h" 831)
   nil )
  (!pair  "varpool_node_hook"
   (!type already_seen 9)
-  (!srcfileloc  "cgraph.h" 828)
+  (!srcfileloc  "cgraph.h" 829)
   nil )
  (!pair  "cgraph_node_hook"
   (!type already_seen 9)
-  (!srcfileloc  "cgraph.h" 827)
+  (!srcfileloc  "cgraph.h" 828)
   nil )
  (!pair  "cgraph_edge_hook"
   (!type already_seen 9)
-  (!srcfileloc  "cgraph.h" 826)
+  (!srcfileloc  "cgraph.h" 827)
   nil )
  (!pair  "cgraph_edge_p"
   (!type already_seen 915)
@@ -24873,7 +24873,7 @@
  
  (!type already_seen 542)
 )
-(!variables 613
+(!variables 614
  (!pair  "objc_eh_personality_decl"
   (!type already_seen 5)
   (!srcfileloc  "objc/objc-next-runtime-abi-02.c" 3608)
@@ -25897,7 +25897,7 @@
  )
  (!pair  "constexpr_call_table"
   (!type already_seen 1482)
-  (!srcfileloc  "cp/semantics.c" 8089)
+  (!srcfileloc  "cp/semantics.c" 8098)
   (!options 
    (!option param_is type 
     (!type already_seen 709)
@@ -25906,7 +25906,7 @@
  )
  (!pair  "constexpr_fundef_table"
   (!type already_seen 1484)
-  (!srcfileloc  "cp/semantics.c" 7406)
+  (!srcfileloc  "cp/semantics.c" 7415)
   (!options 
    (!option param_is type 
     (!type already_seen 712)
@@ -25927,7 +25927,7 @@
   nil )
  (!pair  "last_error_tinst_level"
   (!type already_seen 725)
-  (!srcfileloc  "cp/pt.c" 8238)
+  (!srcfileloc  "cp/pt.c" 8241)
   nil )
  (!pair  "canonical_template_parms"
   (!type already_seen 45)
@@ -25973,21 +25973,25 @@
   nil )
  (!pair  "ssdf_decls"
   (!type already_seen 45)
-  (!srcfileloc  "cp/decl2.c" 3317)
+  (!srcfileloc  "cp/decl2.c" 3312)
   nil )
  (!pair  "ssdf_decl"
   (!type already_seen 5)
-  (!srcfileloc  "cp/decl2.c" 3313)
+  (!srcfileloc  "cp/decl2.c" 3308)
   nil )
  (!pair  "priority_decl"
   (!type already_seen 5)
-  (!srcfileloc  "cp/decl2.c" 3310)
+  (!srcfileloc  "cp/decl2.c" 3305)
   nil )
  (!pair  "initialize_p_decl"
   (!type already_seen 5)
-  (!srcfileloc  "cp/decl2.c" 3307)
+  (!srcfileloc  "cp/decl2.c" 3302)
   nil )
  (!pair  "no_linkage_decls"
+  (!type already_seen 45)
+  (!srcfileloc  "cp/decl2.c" 108)
+  nil )
+ (!pair  "maybe_comdat_fns"
   (!type already_seen 45)
   (!srcfileloc  "cp/decl2.c" 104)
   nil )
@@ -26026,39 +26030,39 @@
   nil )
  (!pair  "unemitted_tinfo_decls"
   (!type already_seen 45)
-  (!srcfileloc  "cp/cp-tree.h" 5632)
+  (!srcfileloc  "cp/cp-tree.h" 5634)
   nil )
  (!pair  "deferred_mark_used_calls"
   (!type already_seen 45)
-  (!srcfileloc  "cp/cp-tree.h" 5302)
+  (!srcfileloc  "cp/cp-tree.h" 5303)
   nil )
  (!pair  "assignment_operator_name_info"
   (!type array 1568 nil  gc_used "(int) MAX_TREE_CODES" 
    (!type already_seen 745)
   )
-  (!srcfileloc  "cp/cp-tree.h" 4751)
+  (!srcfileloc  "cp/cp-tree.h" 4752)
   nil )
  (!pair  "operator_name_info"
   (!type array 1569 nil  gc_used "(int) MAX_TREE_CODES" 
    (!type already_seen 745)
   )
-  (!srcfileloc  "cp/cp-tree.h" 4748)
+  (!srcfileloc  "cp/cp-tree.h" 4749)
   nil )
  (!pair  "tls_aggregates"
   (!type already_seen 5)
-  (!srcfileloc  "cp/cp-tree.h" 4493)
+  (!srcfileloc  "cp/cp-tree.h" 4494)
   nil )
  (!pair  "static_aggregates"
   (!type already_seen 5)
-  (!srcfileloc  "cp/cp-tree.h" 4491)
+  (!srcfileloc  "cp/cp-tree.h" 4492)
   nil )
  (!pair  "local_classes"
   (!type already_seen 45)
-  (!srcfileloc  "cp/cp-tree.h" 4393)
+  (!srcfileloc  "cp/cp-tree.h" 4394)
   nil )
  (!pair  "integer_two_node"
   (!type already_seen 5)
-  (!srcfileloc  "cp/cp-tree.h" 4348)
+  (!srcfileloc  "cp/cp-tree.h" 4349)
   nil )
  (!pair  "scope_chain"
   (!type already_seen 751)
@@ -26172,13 +26176,13 @@
   nil )
  (!pair  "lazy_hex_fp_value_count"
   (!type already_seen 9)
-  (!srcfileloc  "c-family/c-cppbuiltin.c" 1132)
+  (!srcfileloc  "c-family/c-cppbuiltin.c" 1180)
   nil )
  (!pair  "lazy_hex_fp_values"
   (!type array 1572 nil  gc_used "12" 
    (!type already_seen 781)
   )
-  (!srcfileloc  "c-family/c-cppbuiltin.c" 1131)
+  (!srcfileloc  "c-family/c-cppbuiltin.c" 1179)
   nil )
  (!pair  "pending_lang_change"
   (!type already_seen 9)
@@ -26199,24 +26203,24 @@
  )
  (!pair  "tree_vector_cache"
   (!type already_seen 789)
-  (!srcfileloc  "c-family/c-common.c" 11546)
+  (!srcfileloc  "c-family/c-common.c" 11548)
   (!options 
    (!option deletable string  "")
   )
  )
  (!pair  "optimize_args"
   (!type already_seen 792)
-  (!srcfileloc  "c-family/c-common.c" 9011)
+  (!srcfileloc  "c-family/c-common.c" 9013)
   nil )
  (!pair  "compound_literal_number"
   (!type already_seen 9)
-  (!srcfileloc  "c-family/c-common.c" 5732)
+  (!srcfileloc  "c-family/c-common.c" 5734)
   nil )
  (!pair  "built_in_attributes"
   (!type array 1574 nil  gc_used "(int) ATTR_LAST" 
    (!type already_seen 5)
   )
-  (!srcfileloc  "c-family/c-common.c" 5107)
+  (!srcfileloc  "c-family/c-common.c" 5109)
   nil )
  (!pair  "type_hash_table"
   (!type already_seen 53)
@@ -26472,7 +26476,7 @@
  )
  (!pair  "asan_ctor_statements"
   (!type already_seen 5)
-  (!srcfileloc  "asan.c" 2399)
+  (!srcfileloc  "asan.c" 2400)
   nil )
  (!pair  "asan_detect_stack_use_after_return"
   (!type already_seen 5)
@@ -26533,15 +26537,15 @@
   nil )
  (!pair  "clone_fn_id_num"
   (!type already_seen 9)
-  (!srcfileloc  "cgraphclones.c" 491)
+  (!srcfileloc  "cgraphclones.c" 517)
   nil )
  (!pair  "vtable_entry_type"
   (!type already_seen 5)
-  (!srcfileloc  "cgraphunit.c" 234)
+  (!srcfileloc  "cgraphunit.c" 233)
   nil )
  (!pair  "asm_last_node"
   (!type already_seen 1338)
-  (!srcfileloc  "cgraphunit.c" 231)
+  (!srcfileloc  "cgraphunit.c" 230)
   nil )
  (!pair  "order"
   (!type already_seen 913)
@@ -26554,19 +26558,19 @@
   (!type array 1585 nil  gc_used "ARM_BUILTIN_MAX" 
    (!type already_seen 5)
   )
-  (!srcfileloc  "config/arm/arm.c" 23659)
+  (!srcfileloc  "config/arm/arm.c" 23650)
   nil )
  (!pair  "tls_get_addr_libfunc"
   (!type already_seen 136)
-  (!srcfileloc  "config/arm/arm.c" 7378)
+  (!srcfileloc  "config/arm/arm.c" 7380)
   nil )
  (!pair  "pic_labelno"
   (!type already_seen 9)
-  (!srcfileloc  "config/arm/arm.c" 6637)
+  (!srcfileloc  "config/arm/arm.c" 6639)
   nil )
  (!pair  "va_list_type"
   (!type already_seen 5)
-  (!srcfileloc  "config/arm/arm.c" 2428)
+  (!srcfileloc  "config/arm/arm.c" 2427)
   nil )
  (!pair  "stack_chk_fail_decl"
   (!type already_seen 5)
@@ -26578,7 +26582,7 @@
   nil )
  (!pair  "critical_name_mutexes"
   (!type already_seen 1494)
-  (!srcfileloc  "omp-low.c" 8882)
+  (!srcfileloc  "omp-low.c" 8942)
   (!options 
    (!option param2_is type 
     (!type already_seen 5)
@@ -27000,21 +27004,21 @@
     (!type already_seen 136)
    )
   )
-  (!srcfileloc  "emit-rtl.c" 5949)
+  (!srcfileloc  "emit-rtl.c" 5953)
   (!options 
    (!option deletable string  "")
   )
  )
  (!pair  "free_sequence_stack"
   (!type already_seen 1366)
-  (!srcfileloc  "emit-rtl.c" 5097)
+  (!srcfileloc  "emit-rtl.c" 5101)
   (!options 
    (!option deletable string  "")
   )
  )
  (!pair  "spill_slot_decl"
   (!type already_seen 5)
-  (!srcfileloc  "emit-rtl.c" 2288)
+  (!srcfileloc  "emit-rtl.c" 2292)
   nil )
  (!pair  "const_fixed_htab"
   (!type already_seen 1518)
